@@ -1,0 +1,37 @@
+/*
+
+Use this stylesheet.css to style the html page the p5.js sketch is embedded in.
+
+*/
+
+
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+	background-color: #ff0000;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* unvisited and selected link */
+a:link, a:active
+{
+    color: #DDDDDD;
+}
+
+/* visited link */
+a:visited
+{
+    color: #DDDDDD;
+}
+
+/* mouse over link */
+a:hover
+{
+    color: #444444;
+    text-decoration: underline;
+}
